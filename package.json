@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js",
+    "start": "npm run register && node src/index.js",
     "register": "node src/register-commands.js"
   },
   "engines": { "node": ">=22.12.0" },
